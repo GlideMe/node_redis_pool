@@ -1,0 +1,45 @@
+{
+  "name": "redis-cluster",
+  "version": "1.0.0",
+  "description": "A connection pool to a single redis server",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.2.2",
+    "npm": "2.14.7"
+  },
+  "dependencies": {
+    "agentkeepalive": "2.2.0",
+    "async": "1.5.2",
+    "jshint": "2.9.3",
+    "node-uuid": "1.4.7",
+    "redis": "2.6.2"
+  },
+  "jshintConfig": {
+    "node": true,
+    "esversion": 6,
+    "strict": true,
+    "indent": true,
+    "latedef": true,
+    "laxbreak": true,
+    "undef": true
+  },
+  "jscsConfig": {
+    "preset": "crockford",
+    "disallowDanglingUnderscores": false,
+    "requireBlocksOnNewline": false,
+    "requireVarDeclFirst": false,
+    "disallowUnusedParams": true,
+    "disallowTrailingComma": false,
+    "requireMultipleVarDecl": true,
+    "validateIndentation": {
+      "value": 4,
+      "allExcept": [
+        "comments"
+      ]
+    },
+    "excludeFiles": [
+    ]
+  }
+}
